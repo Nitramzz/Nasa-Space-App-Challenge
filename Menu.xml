@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <EditText
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:layout_marginTop="300px"
+        android:layout_marginLeft="80px"
+        android:text="Input Country..." />
+    <EditText
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_marginLeft="80px"
+        android:text="Input Town..." />
+    <EditText
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_marginLeft="80px"
+        android:text="Input Airport..." />
+    <EditText
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_marginLeft="80px"
+        android:text="Input Flight  number..." />
+    <Button
+        android:text="Enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterbutton"
+        android:layout_marginTop="80px"
+        android:layout_marginLeft="600px" />
+    <Button
+        android:text="Options"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:id="@+id/options"
+        android:layout_marginLeft="240px"
+        android:layout_marginTop="80px" />
+    <GridView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView1" />
+    <HorizontalScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="41.7dp"
+        android:id="@+id/horizontalScrollView1" />
+</LinearLayout>
